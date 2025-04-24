@@ -22,3 +22,20 @@
 
 # Dependencie graph output
 /dependencies_*.html
+
+# Conan
+/conan.lock
+/conanbuildinfo.*
+/conaninfo.txt
+/.conan/
+/conan_imports/
+/conan_build/
+/conan_export/
+
+# Bazel
+/bazel-*
+/bazel-bin/
+/bazel-genfiles/
+/bazel-out/
+/bazel-testlogs/
+/bazel-workspace/

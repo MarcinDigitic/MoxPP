@@ -1,0 +1,12 @@
+build --enable_bzlmod
+
+# C++ settings
+build --cxxopt='-std=c++17'
+build --host_cxxopt='-std=c++17'
+
+# Enable warnings
+build --cxxopt='-Wall'
+build --cxxopt='-Wextra'
+
+# Platform specific settings
+build --enable_platform_specific_config 
